@@ -35,14 +35,15 @@
 
 .display {
 	background: #B9FDEB;
-	border: 2px solid darkgreen;
+	border: 5px solid brown;
 	padding: 15px;
+	border-radius: 10px;
 }
 
 .display-text {
 	color: grey;
-	font-family: "Roboto Slab", serif;;
-	font-size: 20px;
+	font-family: "Roboto Slab", serif;
+	font-size: 25px;
 	text-align: center;
 	/*padding: 0; */
 }
@@ -54,6 +55,14 @@
 .coffee-cup img {
 	width: 100%;
 }
+.btn {
+  	background: brown;
+  	border-color: #4C1919;
+  	border-radius: 10px;
+  	font-size: 24px;
+  	font-family: "Roboto Slab", serif;
+  } 
+
 .change-box {
 	border: 2px solid black;
 	background: darkgrey;
@@ -63,3 +72,4 @@
 .coffee-oper {
 	background: lightgrey;
 }
+
