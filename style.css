@@ -43,7 +43,7 @@
 .display-text {
 	color: grey;
 	font-family: "Roboto Slab", serif;
-	font-size: 25px;
+	font-size: 22px;
 	text-align: center;
 	/*padding: 0; */
 }
@@ -54,6 +54,7 @@
 }
 .coffee-cup img {
 	width: 100%;
+	opacity: 0%;
 }
 .btn {
   	background: brown;

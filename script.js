@@ -3,7 +3,7 @@
 //window.document.documentElement.body - полный вид
 
 //console.log(document.body); //(укороченный) в консоли отображается все что в тегах body
-//--------------------Устаревшие методы-----------------------------------------------------------------------------
+//--------------------Устаревшие методы---------------------------------
 /*let coffeeMachine = document.getElementById("coffee"); //Поиск по ID (внутри забрать/найти элемент по айдишнику)
 console.log(coffeeMachine);
 let images = document.getElementsByTagName("img") //поиск по тегам
@@ -12,9 +12,9 @@ let coffeeItems = document.getElementsByClassName("coffee-item"); //Поиск �
 console.log(coffeeItems);
 let firstImage = coffeeItems[0].getElementsByTagName("img");
 console.log(firstImage[0]);
-*///----------------------------------------------------------------------------------------------------------------
+*/
 
-//--------------------СОВРЕМЕННЫЕ МЕТОДЫ--------------------------------------------------------
+//--------------------СОВРЕМЕННЫЕ МЕТОДЫ--------------------------------
 /*let coffeeMachine = document.querySelector("#coffee");
 console.log(coffeeMachine);
 let image = document.querySelector("img");
@@ -26,8 +26,7 @@ console.log(itemImage);
 let cupImages = document.querySelectorAll(".coffee-item img, .coffee-cup img");
 console.log(cupImages);
 */
-//---------------------------------------------------------------------------------------
-//--------------------------РАБОТА С ЭЛЕМЕНТАМИ--------------------------------
+//----------------------РАБОТА С ЭЛЕМЕНТАМИ-----------------------------
 /*let coffeeMachine = document.querySelector(".coffee-machine");
 coffeeMachine.style.border = "15px solid brown";
 coffeeMachine.style.borderRadius = "30px";
@@ -107,7 +106,7 @@ function paintBody(color) {
 }
 */
 
-let interval = setInterval(trashConsole, 2000);
+/*let interval = setInterval(trashConsole, 2000);
 
 let changeButton = document.querySelector(".btn");
 changeButton.onclick = function() {
@@ -117,3 +116,4 @@ changeButton.onclick = function() {
 function trashConsole() {
 	console.log( Math.random() );
 }
+*/

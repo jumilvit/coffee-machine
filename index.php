@@ -19,11 +19,11 @@
             <span>Американо/Americano - 50 &#8381</span>
           </div>
           <div class="coffee-item" onclick="buyCoffee('Капучино/Cappuccino', 92, this)">
-            <img src="img/latte2.png" alt="">
+            <img src="img/cappuccino2.png" alt="">
             <span>Капучино/Cappuccino - 92 &#8381</span>
           </div>
           <div class="coffee-item" onclick="buyCoffee('Эспрессо/Espresso', 66, this)">
-            <img src="img/espresso.png" alt="">
+            <img src="img/espresso2.png" alt="">
             <span>Эспрессо/Espresso - 66 &#8381</span>
           </div>
           <div class="coffee-item" onclick="buyCoffee('Латте/Latte', 128, this)">
@@ -37,11 +37,11 @@
               <div class="display">
                 <p class="display-text">Выберете Кофе/Choose Coffee</p>
                 <div class="progress">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div>
                 </div>
               </div>
               <div class="coffee-cup">
-                <img src="img/mug_coffee.png" alt="">
+                <img class="d-none" src="img/mug_coffee.png" alt="">
               </div>
             </div>
             <div class="col-6">
