@@ -26,24 +26,24 @@
 }
 
 .coffee-item span {
-	color: white;
+	color: #FABF88;
 	margin-left: 15px;
-	font-family: "Roboto Slab", serif;;
+	font-family: 'Lobster', cursive;;
 	font-size: 30px;
 }
 
 
 .display {
-	background: #B9FDEB;
-	border: 5px solid brown;
+	background: #FABF88;
+	border: 5px solid #380410;
 	padding: 15px;
 	border-radius: 10px;
 }
 
 .display-text {
-	color: grey;
-	font-family: "Roboto Slab", serif;
-	font-size: 22px;
+	color: #380410;
+	font-family: 'Marck Script', cursive;
+	font-size: 30px;
 	text-align: center;
 	/*padding: 0; */
 }
@@ -57,12 +57,12 @@
 	opacity: 0%;
 }
 .btn {
-  	background: brown;
-  	border-color: #4C1919;
+  	background: #4F011E;
+  	border-color: #380410;
   	border-radius: 10px;
-  	font-size: 24px;
-  	font-family: "Roboto Slab", serif;
-  } 
+  	font-size: 22px;
+  	font-family: 'Ruslan Display', cursive;
+  }
 
 .change-box {
 	border: 2px solid black;
@@ -71,6 +71,17 @@
 }
 
 .coffee-oper {
-	background: lightgrey;
+	background: #856464;
 }
+
+.bills {
+	margin-left: 10%;
+	padding-top: 10px;
+}
+
+.bills img {
+	width: 20%;
+	margin-left: 10px;
+}
+
 
